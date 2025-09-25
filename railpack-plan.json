@@ -1,0 +1,15 @@
+{
+  "$schema": "https://railway.app/railpack-plan.json",
+  "version": "1.0",
+  "name": "node",
+  "build": {
+    "buildpacks": [
+      {
+        "id": "node"
+      }
+    ]
+  },
+  "start": {
+    "command": "npm start"
+  }
+}
